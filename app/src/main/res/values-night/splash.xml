@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Configuring Splash API for customizing Splash-Screen UI in Night-Mode -->
+    <style name="App.SplashScreen.Theme" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@color/gray_900</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/ic_launcher_foreground</item>
+        <item name="postSplashScreenTheme">@style/Theme.InstaLens</item>
+    </style>
+</resources>
